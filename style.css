@@ -1,0 +1,99 @@
+/* Selettori di tipo */
+*{
+ font-family: 'Poppins', sans-serif;
+ box-sizing: border-box;
+}
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div{
+
+}
+h1{
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight:600;
+  color: rgb(0,221,0);
+  text-align: center;
+}
+main{
+  padding-bottom: 75px;
+  margin-top: 75px;
+  width: 85%;
+}
+
+
+
+/* Selettori avanzati */
+header>section{
+  padding-top:33px;
+}
+.button,.arrow-icon{
+  display: inline-block;
+}
+ .logo,main{
+  margin:auto;
+  border-radius: 5px;
+}
+.arrow-icon:after{
+  content: "\291E";
+}
+
+
+
+/* Selettori di classe */
+.container{
+  background-color: rgba(5,5, 5, 0.5);
+  width:66%;
+  margin:auto;
+  margin-top:50px;
+
+  border-radius: 25px;
+}
+.logo{
+  display: block;
+  width: 20%;
+  padding: 5px;
+}
+.buttons-container{
+  padding: 5px;
+  background-color:rgb(0,221,0);
+  margin:auto;
+  width: 100%;
+  text-align: center
+}
+.nome-monopattino{
+  color: white;
+  font-weight: 500;
+  font-size: 21px;
+}
+.specifiche-monopattino{
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.stato-carica{
+  margin-right: auto;
+  height: 21px;
+  border-radius:5px;
+}
+.monopattino{
+  margin-top: 20px;
+}
+
+/* selettori id */
+#stato1{
+  background-color: rgba(224,195,31,0.7);
+  width: 40%;
+}
+#stato2{
+  background-color: rgba(75,195,0,0.7);
+  width: 85%;
+}
+#stato3{
+  background-color: rgba(195,25,25,0.7);
+  width: 15%;
+}
